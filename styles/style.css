@@ -19,6 +19,7 @@
 *{
     margin:0;
     padding: 0;
+   
 }
 body {
     /*evita que o objeto filho saia do pai*/
@@ -64,6 +65,13 @@ body {
 .apresentacao__conteudo__texto{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+}
+.apresentacao__conteudo__texto__lista{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .apresentacao__links{
     display: flex;
@@ -133,7 +141,7 @@ a{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
-    bottom: 0;
+
 }
 
 
@@ -148,6 +156,7 @@ a{
         .apresentacao{
             flex-direction: column-reverse;
             padding: 5% 5%;
+            
         }
         .apresentacao__conteudo{
             width: auto;
@@ -156,6 +165,10 @@ a{
         .apresentacao__imagem{
             width: 80%;
             height: auto;
+        }
+        .apresentacao__conteudo__texto__lista{
+            width: auto;
+            padding: 10%;
         }
 
       }
