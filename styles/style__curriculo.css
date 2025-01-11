@@ -1,0 +1,127 @@
+
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    /*evita que o objeto filho saia do pai*/
+    box-sizing: border-box;
+    background:black; 
+    color: #F6F6F6;  
+    /*height: 100vh*/
+}
+.cabecalho{
+    padding: 4% 0% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+    
+}
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 15%;
+}
+.apresentacao__conteudo{
+    /*widht 615px;*/
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column; /*Direção dos itens*/
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px; /*Espaçamento dos itens*/
+}
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F6F6F6;
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+    color: #F6F6F6;
+    border: 2px double;
+    border-color: #22D4FD;
+    border-radius: 8px;
+    image-resolution: 32px;
+    
+    font-family: "Mountserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;  
+     
+    padding: 21.5px 0; /*altura do botao*/
+
+    text-align: center;
+    text-decoration: none;
+
+    width: 378px;
+}
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+.apresentacao__links__link__img{
+    width: 32px;
+    height: 32px;
+}
+.texto-pagina{
+   /*height: 615px;
+    width: 482px;*/
+    color: #F6F6F6;
+}
+h1{
+    color: #F6F6F6;
+}
+a{
+    text-decoration: none;
+}
+.titulo-destaque{
+    color: #22D4FD;
+}
+.imagem_perfil{
+    width: 488px; 
+    height: 550px;
+}
+.rodape{
+    text-align: center;
+    color: black;
+    background-color: #22D4FD;
+    padding: 24px;
+    font-family: "Mountserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+
